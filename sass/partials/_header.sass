@@ -1,0 +1,226 @@
+.advertising
+  display: flex
+  color: #99B6C5
+  background: #00486D
+  text-align: center
+  font-size: 18px
+  font-family: "DM Sans", sans-serif
+  font-weight: 400
+  padding: 9px 40px
+
+  justify-content: center
+
+.header
+  z-index: 5
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1)
+  background: #F2F6F7
+  width: 100%
+  position: fixed
+  display: block
+
+.header-container
+  display: flex
+  justify-content: space-between
+  align-items: center
+  min-height: 108px
+
+@media screen and (max-width: 634px)
+  .header-container
+    flex-wrap: wrap
+    //gap: 20px
+    justify-content: center
+    align-items: center
+  .header-container.container
+    //padding: 10px 0
+
+.header-block
+  display: flex
+  align-items: center
+  gap: 20px
+  justify-content: center
+.header-block:last-child
+  margin-left: 10px
+
+.header-contact
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  gap: 20px
+  margin-left: auto
+
+@media screen and (min-width: 455px)
+.header-contact
+  margin: 0 auto
+  flex-wrap: wrap
+
+.header-logo
+  margin-right: 40px
+
+.menu-list
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  justify-content: center
+  flex: 1 1 auto
+
+
+.menu-list li:not(:last-child)
+  margin-right: 20px
+
+@media (max-width: 900px)
+  .menu-list li:not(:last-child)
+    margin-right: 0
+
+.menu-link
+  font-size: 19px
+  font-weight: 400
+  color: #00486D
+  line-height: 1.4
+
+.header-tel
+  font-size: 17px
+  font-weight: 400
+  min-width: 130px
+  display: block
+
+@media (max-width: 720px)
+  .header-tel
+    display: none
+
+
+.header-button
+  display: block
+  font-weight: 400
+  font-size: 18px
+  text-align: center
+  background-color: #00486D
+  color: #fff
+  width: 234px
+  padding: 12px 0
+  border-radius: 4px
+  transition: ease-in-out .2s
+
+  &:hover
+    color: #00486D
+    background: #fff
+    border: 1px solid #00486D
+
+//===============================================================
+
+.banner-block
+  background-size: cover
+  position: relative
+  background-color: #E4ECF0
+  padding-top: 100px
+  margin-bottom: 160px
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    width: 40%
+    height: 100%
+    background: #00486D
+
+@media screen and (max-width: 1024px)
+  .banner-block:before
+    display: contents
+    width: 20%
+
+@media screen and (max-width: 1250px)
+  .main-item:last-child
+    margin-right: 30px
+
+.banner-block-in
+  display: flex
+  height: 753px
+
+.banner-left
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 60%
+  height: 100%
+
+@media screen and (max-width: 1034px)
+  .banner-right
+    display: none
+  .banner-info
+    max-width: 150px
+  .banner-info
+    h1
+      font-size: 44px
+    p
+      font-size: 18px
+  .banner-left
+    text-align: center
+    width: 100%
+    padding: 0 40px 0 0
+    display: flex
+    justify-content: center
+    align-items: center
+
+.banner-info
+  max-width: 635px
+  display: block
+
+.banner-info h1
+  font-family: 'DM Serif Text', serif
+  font-size: 55px
+  font-weight: 400
+  margin-bottom: 25px
+
+
+.banner-info p
+  font-size: 24px
+  line-height: 1.75
+
+.request-btn
+  margin-top: 35px
+
+.banner-right
+  width: 40%
+  height: 100%
+  display: flex
+  flex-direction: column
+  position: relative
+  margin-left: 104px
+
+.img-wrap
+  position: absolute
+  overflow: hidden
+  top: 56px
+  right: 0
+  width: auto
+  height: auto
+  object-fit: cover
+  object-position: left
+  display: inline-block
+
+@media screen and (max-width: 1185px)
+  .img-wrap
+    display: none
+
+  .banner-right
+    display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

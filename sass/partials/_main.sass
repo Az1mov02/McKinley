@@ -1,0 +1,98 @@
+.main
+  background: #fff
+
+.main-text__block
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  gap: 25px
+
+@media screen and (max-width: 702px)
+  .main-text__block
+    margin-right: 50px
+
+@media screen and (max-width: 918px)
+  .main-text__block
+    justify-content: center
+    align-items: center
+
+.main-title
+  font-size: 44px
+  font-family: "DM Serif Text", serif
+  font-weight: 400
+
+
+
+.main-text
+  //margin-top: 25px
+  max-width: 605px
+  font-size: 24px
+  font-weight: 400
+  line-height: 42px
+  margin-bottom: 51px
+
+.main-items
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-wrap: wrap
+
+.main-item
+  display: flex
+  flex: 1 1 auto
+  flex-direction: column
+  justify-content: space-between
+  width: 397px
+  height: 442px
+  box-shadow: 0px 24px 24px rgba(0, 72, 109, 0.2)
+  border-radius: 2px
+  border: 1px solid #E4ECF0
+  background: #ffffff
+  padding: 44px 36px 41px 33px
+  //margin-right: 30px
+  margin-bottom: 30px
+
+
+.main-item:not(:last-child)
+  margin-right: 30px
+
+.item-block img
+  margin-bottom: 40px
+
+.item-title
+  font-weight: 400
+  font-size: 22px
+  margin-bottom: 12px
+
+.item-text
+  font-size: 20px
+  line-height: 1.4
+  max-width: 305px
+
+.item-link a span
+  background: url('../img/triangle.svg') 99% 50% no-repeat
+  padding: 15px
+
+//====  main-info  ====================================
+.main-info-block
+  margin-top: 160px
+  position: relative
+
+.main-info
+  display: flex
+  height: 680px
+
+.main-left
+  width: 100%
+
+.main-right
+  position: relative
+
+.main-small-info
+  display: flex
+  flex-direction: column
+  background: #00486D
+  color: #fff
+  padding: 53px 58px 72px 56px
+
+

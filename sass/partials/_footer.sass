@@ -1,0 +1,88 @@
+.footer
+  color: #99B6C5
+
+.footer-top
+  background: #00486D
+  padding: 123px 15px 134px
+
+.footer-top .container
+  display: flex
+  margin: 0 20px
+  justify-content: center
+  flex-wrap: wrap-reverse
+  gap: 60px
+
+@media screen and (min-width: 900px)
+  .footer-top .container
+    justify-content: space-between
+    gap: 30px
+  .social-icons
+    flex-direction: column
+  .footer-search
+    padding-right: 221px
+
+.footer-nav
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+.footer-nav li
+  max-width: 250px
+
+.footer-link
+  font-size: 19px
+  font-weight: 400
+  line-height: 1.5
+  &:hover
+    border-bottom: 1px solid #99B6C5
+
+.footer-info
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: space-between
+  gap: 40px
+
+.footer-social
+  margin-top: 26px
+
+//=======  footer-bottom  ====================================================
+
+.footer-bottom
+  background-color: #002B41
+
+.footer-bottom .container
+  display: flex
+  justify-content: space-between
+  padding: 12px 0px
+  align-items: center
+  gap: 20px
+  flex-wrap: wrap
+
+@media screen and (max-width: 640px)
+  .footer-bottom .container
+    justify-content: center
+
+.footer-left, .footer-right
+  display: flex
+  gap: 20px
+  a
+    font-size: 14px
+    color: #99B6C5
+    transition: all 0.3s
+    &:hover
+      color: #fff
+@media screen and (max-width: 415px)
+  .footer-left
+    flex-wrap: wrap
+    justify-content: center
+
+.footer-right
+  margin: 0 20px
+
+
+
+
+
+
+

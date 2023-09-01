@@ -1,0 +1,54 @@
+body
+  font-family: 'DM Sans', sans-serif
+  font-size: 19px
+  color: #00486D
+  font-weight: 400
+  max-width: 1440px
+  background-color: #fff
+
+@import partials/_header.sass
+@import partials/_main.sass
+@import partials/_img-info.sass
+@import partials/_recent.sass
+@import partials/_social.scss
+@import partials/_search.sass
+@import partials/slider
+@import partials/_variables-miksins.sass
+@import partials/_burger-menu.sass
+@import partials/_footer.sass
+
+ul,
+ol,
+li
+  list-style: none
+
+h1, h2, h3
+  margin: 0
+
+*,
+*::before,
+*::after
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+  border: 0
+
+a
+  text-decoration: none
+  color: inherit
+
+.container
+  width: 100%
+  max-width: 1270px
+  margin: 0 auto
+  padding: 0 15px
+  -webkit-box-sizing: content-box
+  box-sizing: content-box
+@media screen and (max-width: 1034px)
+  .container
+    max-width: 1070px
+    //padding: 0 25px
+
+
+//@media screen and(max-width: )
